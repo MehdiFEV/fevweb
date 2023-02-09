@@ -2,7 +2,7 @@
 if (isset($_POST['envoie'])){
     if (!empty($_POST['pseudo']) AND !empty($_POST['mdp'])){
     }else {
-    echo"Veuillez compléter tout les champs..."
+    echo"Veuillez compléter tout les champs...";
     }
 }
 ?>
