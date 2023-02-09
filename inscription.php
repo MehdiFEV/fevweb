@@ -8,7 +8,7 @@
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
-        <form method="POST" action=""> 
+        <form method="POST" action="" align="center"> 
             <input type="text" name="">
             <br>
             <input type="password" name="mdp">
