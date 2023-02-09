@@ -1,10 +1,9 @@
 <?php 
-    if (isset($_POST['envoie'])){
-        if (!empty($_POST['pseudo']) AND !empty($_POST['mdp'])){
-
-        }else {
-            echo"Veuillez compléter tout les champs..."
-        }
+if (isset($_POST['envoie'])){
+    if (!empty($_POST['pseudo']) AND !empty($_POST['mdp'])){
+    }else {
+    echo"Veuillez compléter tout les champs..."
+    }
 }
 ?>
 <!DOCTYPE html>
