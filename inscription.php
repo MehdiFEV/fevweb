@@ -26,7 +26,7 @@ if (isset($_POST['envoie'])){
         <link rel="icon" type="image/x-icon" href="/img/logo.ico">
         <meta charset="utf-8">
         <body>
-            <href src="https://mehdiweb.000webhostapp.com/connexion.php">Vous connectez</href>
+            <a href="https://mehdiweb.000webhostapp.com/connexion.php">Vous connectez</a>
             <form method="POST" action="" align="center"> 
                 <input type="text" name="pseudo" autocomplete="off">
                 <br>
