@@ -17,8 +17,11 @@ if (isset($_POST['envoie'])){
     <head>
         <title>Système Inscription</title>
         <link rel="icon" type="image/x-icon" href="/img/logo.ico">
+        <link rel="stylesheet" href="css/styles.css">
         <meta charset="utf-8">
-        <body>
+    </head>
+    <body>
+        <div class ="center">
             <a href="https://mehdiweb.000webhostapp.com/connexion.php">Vous connectez</a>
             <form method="POST" action="" align="center"> 
                 <input type="text" name="pseudo" autocomplete="off">
@@ -27,6 +30,6 @@ if (isset($_POST['envoie'])){
                 <br/><br/>
                 <input type="submit" name="envoie">
             </form>
-        </body>
-    </head>
+        </div>
+    </body>
 </html>
