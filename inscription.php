@@ -17,7 +17,7 @@ if (isset($_POST['envoie'])){
     <head>
         <title>Système Inscription</title>
         <link rel="icon" type="image/x-icon" href="/img/logo.ico">
-        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="css/style.css">
         <meta charset="utf-8">
     </head>
     <body>
