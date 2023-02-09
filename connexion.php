@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Page Mehdi</title>
+        <title>Système Login</title>
         <link rel="icon" type="image/x-icon" href="/img/logo.ico">
+        <meta charset="utf-8">
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
