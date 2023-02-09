@@ -14,9 +14,9 @@ if (isset($_POST['envoie'])){
         <meta charset="utf-8">
         <body>
             <form method="POST" action="" align="center"> 
-                <input type="text" name="pseudo" autocomplete="off'>
+                <input type="text" name="pseudo" autocomplete="off">
                 <br>
-                <input type="password" name="mdp" autocomplete="off'>
+                <input type="password" name="mdp" autocomplete="off">
                 <br/><br/>
                 <input type="submit" name="envoie">
             </form>
