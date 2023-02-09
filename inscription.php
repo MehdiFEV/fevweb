@@ -24,14 +24,16 @@ if (isset($_POST['envoie'])){
      <a href="https://mehdiweb.000webhostapp.com/connexion.php">Vous connectez</a>
         <div class ="center">
             <h1>S'inscrire</h1>
-            <form method="POST" action=""> 
+            <form method="POST"> 
                 <div class=txt_field">
                     <input type="text" name="pseudo" autocomplete="off">
                     <label>Nom d'utilisateur</label>
                 </div>
                 <br>
-                <input type="password" name="mdp" autocomplete="off">
-                <label>Mot de Passe</label>
+                <div class=txt_field">
+                    <input type="password" name="mdp" autocomplete="off">
+                    <label>Mot de Passe</label>
+                </div>
                 <br/><br/>
                 <input type="submit" name="envoie">
             </form>
