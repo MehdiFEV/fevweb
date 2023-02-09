@@ -23,7 +23,7 @@ if (isset($_POST['envoie'])){
     <body>
         <div class ="center">
             <a href="https://mehdiweb.000webhostapp.com/connexion.php">Vous connectez</a>
-            <form method="POST" action="" align="center"> 
+            <form method="POST" action=""> 
                 <input type="text" name="pseudo" autocomplete="off">
                 <br>
                 <input type="password" name="mdp" autocomplete="off">
