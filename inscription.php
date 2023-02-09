@@ -1,5 +1,5 @@
 <?php
-$bdd = new PDO('mysql:host=localhost;dbname=id20273475_mehdi;chareset=utf8;', 'id20273475_root', 'pB>slNhWr6iNB1Y&');
+$bdd = new PDO('mysql:host=localhost;dbname=id20273475_mehdi;chareset=utf8;', 'id20273475_root', '5z*CO?-kN3AM3RQB');
 if (isset($_POST['envoie'])){
     if (!empty($_POST['pseudo']) AND !empty($_POST['mdp'])){
         $pseudo = htmlspecialchars($_POST["pseudo"]);
