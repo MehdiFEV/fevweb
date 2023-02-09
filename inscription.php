@@ -1,4 +1,12 @@
-<?php ?>
+<?php 
+    if (isset($_POST['envoie'])){
+        if (!empty($_POST['pseudo']) AND !empty($_POST['mdp'])){
+
+        }else {
+            echo"Veuillez compléter tout les champs..."
+        }
+}
+?>
 <!DOCTYPE html>
 <html>
     <head>
@@ -7,7 +15,7 @@
         <meta charset="utf-8">
         <link rel="stylesheet" href="css/style.css">
     </head>
-    <body>qdqd
+    <body>
         <form method="POST" action="" align="center"> 
             <input type="text" name="">
             <br>
