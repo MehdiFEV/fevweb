@@ -7,7 +7,7 @@ if (isset($_POST['envoie'])){
         $mdp = sha1($_POST['mdp']);
         $insertUser = $bdd->prepare('INSERT INTO users(pseudo, mdp)VALUES(?, ?)');
         $insertUser->execute(array($pseudo, $mdp));
-        $recupUser = $bdd->prepare('SELECT * FROM users WHERE pseudo = ? AND mdp = ?'),
+        $recupUser = $bdd->prepare('SELECT * FROM users WHERE pseudo = ? AND mdp = ?');
         $recupUser->execute(array($pseudo, $mdp));
         if ($recupUser->rowCount() > 0 ){
             $_SESSION['pseudo'] = $pseudo;
